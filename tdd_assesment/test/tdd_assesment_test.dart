@@ -10,6 +10,9 @@ void main() {
      test('Test Case 2: Single number returns itself', () {
       expect(add("1"), equals(1));
     });
+     test('Test Case 3: Single number returns itself', () {
+      expect(add("1,5"), equals(6));
+    });
 
   });
 
