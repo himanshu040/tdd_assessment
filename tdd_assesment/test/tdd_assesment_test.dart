@@ -7,6 +7,9 @@ void main() {
     test('Test Case 1: Empty string returns 0', () {
       expect(add(''), equals(0));
     });
+     test('Test Case 2: Single number returns itself', () {
+      expect(add("1"), equals(1));
+    });
 
   });
 
