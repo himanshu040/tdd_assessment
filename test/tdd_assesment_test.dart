@@ -49,4 +49,10 @@ void main() {
       );
     });
 
+      test('Test Case 9: Numbers greater than 1000 are ignored', () {
+      expect(add('2,1001'), equals(2));
+    });
+
+    
+
 }
