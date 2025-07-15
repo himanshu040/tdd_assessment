@@ -13,6 +13,9 @@ void main() {
      test('Test Case 3: Single number returns itself', () {
       expect(add("1,5"), equals(6));
     });
+     test('Test Case 4: Multiple comma-separated numbers return sum', () {
+      expect(add("1,2,3,4"), equals(10));
+    });
 
   });
 
